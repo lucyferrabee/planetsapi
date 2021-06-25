@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url('space2.jpg'); /* The image used */
+  //background-image: url('space2.jpg'); /* The image used */
   background-color: black; /* Used if the image is unavailable */
   //background-position: center; /* Center the image */
   //background-size: cover; /* Resize the background image to cover the entire container */
@@ -27,6 +27,7 @@ img {
   justify-content: space-between;
   padding-right: 50px;
   padding-top: 50px;
+  padding-left: 50px;
 }
 
 .extra-stats {
@@ -34,4 +35,8 @@ img {
   flex-direction: row;
   justify-content: space-between;
   padding: 30px;
+}
+
+.information-container {
+  padding-left: 50px;
 }
